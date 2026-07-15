@@ -4,3 +4,12 @@ We have imported following libraries as of now...
     2. Lombok
     3. Thymeleaf
     4. WebSocket
+
+What is WebSocket?
+It helps in maintaining continuous 2 way communication. Real time connection
+
+What is STOMP?
+It gives structure to the way communication takes place. Organising the messages
+
+What is message broking?
+The way of routing messages. It is a middle man, it will direct the message in right place
