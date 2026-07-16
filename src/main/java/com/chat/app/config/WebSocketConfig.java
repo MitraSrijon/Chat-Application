@@ -14,7 +14,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     public void registerStompEndpoints(StompEndpointRegistry registry) {
 
         registry.addEndpoint("/chat") // will get this on page http://localhost:8080/chat
-                .setAllowedOrigins("http://localhost:5173") //this is post that will able to communicate with us i.e. with port 8080
+                .setAllowedOrigins("http://localhost:8080") //this is post that will able to communicate with us i.e. with port 8080
                 .withSockJS(); //makes client compatible that doesn't use websockets, making it accessible
 
     }

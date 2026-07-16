@@ -8,8 +8,13 @@ We have imported following libraries as of now...
 What is WebSocket?
 It helps in maintaining continuous 2 way communication. Real time connection
 
-What is STOMP?
-It gives structure to the way communication takes place. Organising the messages
+What is STOMP \\Simple Text Oriented Messaging Protocol?
+It gives structure to the way communication takes place. Organising the messages. Like Http its a protocol for messages
 
 What is message broking?
 The way of routing messages. It is a middle man, it will direct the message in right place
+
+What is SockJs?
+SockJS is a JavaScript library that provides a WebSocket-like object for low-latency, cross-browser communication
+We use this because, WebSocket is not supported by all the browsers. SockJs creates a stimulation of WebSocket, there by resolving the issue.
+<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script> to add this
