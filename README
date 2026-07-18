@@ -9,7 +9,7 @@ What is WebSocket?
 It helps in maintaining continuous 2 way communication. Real time connection
 
 What is STOMP \\Simple Text Oriented Messaging Protocol?
-It gives structure to the way communication takes place. Organising the messages. Like Http its a protocol for messages
+It gives structure to the way communication takes place. Organising the messages. Like Http, its a protocol for messages
 
 What is message broking?
 The way of routing messages. It is a middle man, it will direct the message in right place
